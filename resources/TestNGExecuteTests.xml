@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SQSTestSuite" verbose="1" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="com.allianz.common.TestListener"/>
+    </listeners>
+
+    <test name="AllianzTest" verbose="1">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="webDriverVersion" value="81.0.4044.138"/> <!--2.46-->
+
+       <!-- <groups>
+            <run>
+                <exclude name="claimGroup" />
+            </run>
+        </groups>-->
+        <classes>
+            <!--<class name="com.sqs.prestatests.PrestaSignInTest"/>-->
+        <!-- <class name="com.sqs.allianztests.AllianzCreateClaimTest"/>-->
+       <class name="com.sqs.allianztests.AllianzAutoTest"/>
+      <!--<class name="com.sqs.allianztests.FlashPlayerTest"/>-->
+        </classes>
+    </test>
+</suite>
