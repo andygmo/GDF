@@ -52,7 +52,7 @@ public class TestListener implements ITestListener {
     String grid = result.getMethod().getXmlTest().getAllParameters().get("grid");
     String platform = result.getMethod().getXmlTest().getAllParameters().get("platform");
     String browserstackToLocal = result.getMethod().getXmlTest().getAllParameters().get("browserstackToLocal");
-    System.setProperty("webdriver.chrome.driver", "C:\\SQS_OSF\\Drivers\\chromedriver\\win32\\81.0.4044.138\\chromedriver.exe");
+    System.setProperty("webdriver.chrome.driver", "/home/vagrant/GDF/chromedriver");
     ChromeOptions options = new ChromeOptions();
     options.addArguments("--headless");
     options.addArguments("--disable-gpu");

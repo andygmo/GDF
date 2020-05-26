@@ -6,7 +6,6 @@ import com.allianz.claim.pageobjects.FinishScreenPageClaims;
 import com.allianz.claim.pageobjects.NoInsuredFoundPopupPage;
 import com.allianz.utils.PersonalDetails;
 import com.sqs.allianztests.base.AllianzBaseTest;
-import javafx.scene.PerspectiveCamera;
 import org.testng.annotations.Test;
 
 public class AllianzCreateClaimTest extends AllianzBaseTest {

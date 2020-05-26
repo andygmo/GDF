@@ -455,11 +455,15 @@
             </activation>
             <properties>
                 <!--Base path for resources and reports-->
-                <OSFresourcesFolder>/home/user/autoq/SQS_OSF</OSFresourcesFolder>
+                <OSFresourcesFolder>/home/jenkins/agent/workspace/autoq</OSFresourcesFolder>
+                <suiteXmlFile>${resourcesFolder}\TestNGExecuteTests.xml</suiteXmlFile>
+                <environment.outputFile>${resourcesFolder}/environment.properties</environment.outputFile>
 
                 <!--Reports folders-->
                 <testReportDirectory>${OSFresourcesFolder}/${timestamp}/Reports</testReportDirectory>
                 <allureReportsDir>${testReportDirectory}/AllureReport</allureReportsDir>
+                <GDF_URL>https://api-test.allianz.com/mo-fe-at-staging/?applicationId=at_app_PREPROD&amp;lang=de&amp;tenant=mo-at#/carConfiguration</GDF_URL>
+                <fnolUrl>https://testweb1.allianz.at/fnol-kfz/</fnolUrl>
 
                 <!--Timeout-->
                 <Timeout>30</Timeout>

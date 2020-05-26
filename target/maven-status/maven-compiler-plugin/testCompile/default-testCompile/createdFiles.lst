@@ -1,4 +1,4 @@
-com\sqs\allianztests\AllianzAutoTest.class
-com\sqs\allianztests\AllianzCreateClaimTest.class
-com\sqs\allianztests\base\AllianzBaseTest.class
-com\sqs\allianztests\FlashPlayerTest.class
+com/sqs/allianztests/AllianzAutoTest.class
+com/sqs/allianztests/base/AllianzBaseTest.class
+com/sqs/allianztests/FlashPlayerTest.class
+com/sqs/allianztests/AllianzCreateClaimTest.class
